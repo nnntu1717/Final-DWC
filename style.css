@@ -1,0 +1,294 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Montserrat:wght@200;400;800&family=Roboto+Serif:wght@100;500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    background-color: rgb(255, 255, 255);
+    padding: 32px 0;
+}
+.container{
+    width: 100%;
+    margin: 0 auto;
+}
+.logo{
+    vertical-align: middle;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.logo img{
+    width: 300px;
+    display: inline-block;
+}
+.navigation{
+    text-align: center;
+    background-color: bisque;
+    padding: 30px;
+}
+.navigation ul{
+    list-style: none;
+}
+.navigation li{
+    display: inline-block;
+    
+}
+.navigation li a{
+    text-decoration: none;
+    color: black;
+    font-size: 32px;
+    margin-right: 80px;
+}
+.banner{
+    width:100%;
+    margin: 0 auto;
+    height: 500px;
+}
+.content-banner{
+    text-align: left;
+    width: 40%;
+    display: inline-block;
+    vertical-align: middle;
+    padding-left: 40px;
+
+}
+.content-banner h1{
+    font-family: 'Dancing Script', cursive;
+    text-transform: uppercase;
+    font-size: 50px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    color:rgb(211, 82, 89)
+}
+.content-banner h2{
+    text-transform: inherit;
+    font-size: 30px;
+    font-family: 'Roboto Serif', sans-serif;
+    margin-bottom: 20px;
+    letter-spacing: 10px;
+    text-transform: uppercase;
+}
+.content-banner p{
+    width: 500px;
+    font-size: 32px;
+    margin-bottom: 40px;
+}
+.content-banner a{
+    padding: 20px;
+    background-color: rgb(149, 29, 197);
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(253, 252, 252);
+    text-transform: uppercase;
+    font-weight: bold;
+    box-shadow: 10px 10px 10px rgb(146, 137, 137);
+    border-radius: 10px;
+}
+.img-banner{
+    width: 59%;
+    overflow: hidden;
+    display: inline-block;
+    vertical-align: middle;
+    height: 500px;
+   
+}
+.img-banner img{
+    width: 100%;
+}
+.offer h1{
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-family: 'Montserrat', sans-serif; 
+    font-size: 60px;
+    padding: 70px;
+}
+.offer{
+    padding: 50px 0;
+
+}
+.box1{
+    width: 30%;
+    display: inline-block;
+    margin-left: 20px;
+    vertical-align: top;
+}
+.image{
+    overflow: hidden;
+    border: solid black;
+    padding: 10px;
+}
+.image img{
+    width:100%;
+}
+.box1-content h2{
+    font-family: 'Roboto Serif', sans-serif;
+    font-size: 40px;
+    margin-top: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight:bolder;
+}
+.box1-content p{
+    text-align: center;
+    font-size: 25px;
+    padding: 10px;
+    margin: 22px 0px 18px;
+}
+.box1-content a{
+    padding: 20px;
+    color: grey;
+    text-decoration: underline;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;  
+    text-align: center;
+}
+.box1-content{
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.sale h1{
+    text-align:left;
+    color: rgb(177, 102, 137);
+    margin-left: -80px;
+    margin-bottom: -30px;
+}
+.sale h2{
+    text-align: left;
+    color: red;
+    font-size: 50px;
+    display: inline-block;
+}
+.sale h3{
+    text-align: center;
+    display: inline-block;
+    text-transform: uppercase;
+    font-size: 28px;
+    margin-bottom: 30px;
+    color:rgb(17, 18, 19)
+}
+.sale p{
+    width: 500px;
+    font-size: 32px;
+    margin-bottom: 40px;
+    color: rgb(13, 13, 14);
+}
+.sale a{
+    padding: 20px;
+    background-color: rgb(138, 14, 143);
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(248, 244, 244);
+    text-transform: uppercase;
+    font-weight: bold;
+    box-shadow: 10px 10px 10px rgb(146, 137, 137);
+    border-radius: 10px;
+}
+.sale{
+    background-image: url("img/assortment-pieces-cake\ 1.jpeg");
+    width: 100%;
+    height: 700px;
+    padding: 60px;
+    background-size: 1550px;
+    background-position: 0px -330px;
+    margin-top: 40px;
+}
+.part1{
+    display: inline-block;
+    text-align: right;
+    vertical-align: middle;
+    width: 30%;
+    
+}
+.section1{
+    display: inline-block;
+    vertical-align: top;
+}
+.section1 h2{
+    font-size: 26px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+.section1 p{
+    color: grey;
+    width: 250px;
+    font-family: 'Montserrat', sans-serif;
+    float:right;
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+.part2{
+    width: 30%;
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 30px;
+    margin-right:20px;
+    text-align: center;
+}
+.part2 img{
+    width: 100%;
+    display: inline-block;
+    vertical-align: middle;
+
+}
+.part3{
+    width: 30%;
+    text-align: left;
+    display: inline-block;
+    vertical-align: top;
+}
+.footer{
+    padding: 40px;
+}
+.footer-logo{
+    vertical-align: middle;
+    text-align: left;
+    margin-bottom: 10px;
+    padding-top: 40px;
+    padding-left: 100px;
+    padding-right: 40px;
+    display: inline-block;
+}
+.footer-logo img{
+    width: 300px;
+    display: inline-block;
+}
+.footer-container{
+    border-top: thin solid black;
+    width: 1500px;
+    margin: 0 auto;
+}
+.menu{
+    display: inline-block;
+    vertical-align: top;
+    margin-right:100px;
+    margin-top: 40px;
+    text-align: right;
+    
+}
+.menu h4{
+    font-size: 20px;
+    font-family: 'Roboto Serif', sans-serif;
+    margin-bottom: 20px;
+}
+.menu ul{
+    list-style: none;
+}
+.menu li a{
+    text-decoration: none;
+    color: rgb(129, 125, 125);
+    font-size: 22px;
+    text-transform: initial;
+    line-height: 40px;
+    font-family: 'Montserrat', sans-serif;
+}
+.copyright{
+    text-align: center;
+    font-size: 20px;
+    background-color: rgb(216, 203, 203);
+    margin: 0 auto;
+    width: 1500px;
+    padding: 20px;
+}
